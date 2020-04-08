@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sheldon_Cooper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the-big-bang-theory-logo-png-2" translatesAutoresizingMaskIntoConstraints="NO" id="eRA-vU-AuW">
+                                <rect key="frame" x="-17" y="541" width="437" height="310"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBV-Yh-V92">
+                                <rect key="frame" x="121" y="162" width="161" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="BAZINGA!">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-nm-NAL">
+                                <rect key="frame" x="127" y="214" width="161" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Mua ha-ha">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2f-95-zA5">
+                                <rect key="frame" x="127" y="266" width="161" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Penny!">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hBV-Yh-V92" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="118" id="9we-xS-LcH"/>
+                            <constraint firstItem="hBV-Yh-V92" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="D5i-63-90E"/>
+                            <constraint firstItem="eRA-vU-AuW" firstAttribute="top" secondItem="C2f-95-zA5" secondAttribute="bottom" constant="231" id="Fc6-mK-qD5"/>
+                            <constraint firstAttribute="trailing" secondItem="eRA-vU-AuW" secondAttribute="trailing" constant="-6" id="IV0-g9-bPC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C2f-95-zA5" secondAttribute="trailing" constant="126" id="QHj-Vi-zeQ"/>
+                            <constraint firstItem="vEv-nm-NAL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="RWW-GX-6Fl"/>
+                            <constraint firstItem="eRA-vU-AuW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-17" id="Tzv-Bg-nGn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eRA-vU-AuW" secondAttribute="bottom" constant="11" id="UXR-Np-dvp"/>
+                            <constraint firstItem="eRA-vU-AuW" firstAttribute="top" secondItem="C2f-95-zA5" secondAttribute="bottom" constant="231" id="Ud1-5i-SVp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vEv-nm-NAL" secondAttribute="trailing" constant="126" id="XBM-D6-q8k"/>
+                            <constraint firstItem="C2f-95-zA5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="ir6-Ye-rSK"/>
+                            <constraint firstItem="vEv-nm-NAL" firstAttribute="top" secondItem="hBV-Yh-V92" secondAttribute="bottom" constant="8" id="som-C2-8K0"/>
+                            <constraint firstItem="C2f-95-zA5" firstAttribute="top" secondItem="vEv-nm-NAL" secondAttribute="bottom" constant="8" id="uMa-Lp-kPA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hBV-Yh-V92" secondAttribute="trailing" constant="132" id="w6B-cO-MXz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="the-big-bang-theory-logo-png-2" width="800" height="310"/>
+    </resources>
+</document>
