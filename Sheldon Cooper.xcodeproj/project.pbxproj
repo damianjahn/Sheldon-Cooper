@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C96CDF80244768AB00BDA6FF /* mua-ha-ha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C96CDF7F244768AB00BDA6FF /* mua-ha-ha.mp3 */; };
+		C96CDF82244768D900BDA6FF /* bazinga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C96CDF81244768D800BDA6FF /* bazinga.mp3 */; };
+		C96CDF84244768FB00BDA6FF /* penny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C96CDF83244768FB00BDA6FF /* penny.mp3 */; };
 		C997544F243E00370057B526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C997544E243E00370057B526 /* AppDelegate.swift */; };
 		C9975451243E00370057B526 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9975450243E00370057B526 /* SceneDelegate.swift */; };
 		C9975453243E00370057B526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9975452243E00370057B526 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C96CDF7F244768AB00BDA6FF /* mua-ha-ha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mua-ha-ha.mp3"; path = "../../sounds/mua-ha-ha.mp3"; sourceTree = "<group>"; };
+		C96CDF81244768D800BDA6FF /* bazinga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bazinga.mp3; sourceTree = "<group>"; };
+		C96CDF83244768FB00BDA6FF /* penny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = penny.mp3; sourceTree = "<group>"; };
 		C997544B243E00370057B526 /* Sheldon Cooper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sheldon Cooper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C997544E243E00370057B526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9975450243E00370057B526 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				C9975452243E00370057B526 /* ViewController.swift */,
 				C9975454243E00370057B526 /* Main.storyboard */,
 				C9975457243E00390057B526 /* Assets.xcassets */,
+				C96CDF7F244768AB00BDA6FF /* mua-ha-ha.mp3 */,
+				C96CDF81244768D800BDA6FF /* bazinga.mp3 */,
+				C96CDF83244768FB00BDA6FF /* penny.mp3 */,
 				C9975459243E00390057B526 /* LaunchScreen.storyboard */,
 				C997545C243E00390057B526 /* Info.plist */,
 			);
@@ -126,8 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C997545B243E00390057B526 /* LaunchScreen.storyboard in Resources */,
+				C96CDF82244768D900BDA6FF /* bazinga.mp3 in Resources */,
 				C9975458243E00390057B526 /* Assets.xcassets in Resources */,
+				C96CDF80244768AB00BDA6FF /* mua-ha-ha.mp3 in Resources */,
 				C9975456243E00370057B526 /* Main.storyboard in Resources */,
+				C96CDF84244768FB00BDA6FF /* penny.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
