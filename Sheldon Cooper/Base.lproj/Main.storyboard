@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,11 +16,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" image="the-big-bang-theory-logo-png-2" translatesAutoresizingMaskIntoConstraints="NO" id="eRA-vU-AuW">
-                                <rect key="frame" x="-17" y="457" width="398" height="310"/>
+                                <rect key="frame" x="-17" y="502" width="398" height="310"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="398" id="F7b-GN-qpN"/>
+                                    <constraint firstAttribute="height" constant="310" id="pbB-R8-aZb"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBV-Yh-V92">
-                                <rect key="frame" x="121" y="162" width="122" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBV-Yh-V92">
+                                <rect key="frame" x="31" y="88" width="312" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="Uqi-s5-KHm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="BAZINGA!">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -28,9 +35,12 @@
                                     <action selector="bazingaButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qPr-LF-bhh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-nm-NAL">
-                                <rect key="frame" x="127" y="214" width="122" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-nm-NAL">
+                                <rect key="frame" x="18" y="192" width="338" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="GNd-1W-aAD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="Mua ha-ha">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -38,9 +48,12 @@
                                     <action selector="laughButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNT-fi-1Og"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2f-95-zA5">
-                                <rect key="frame" x="126" y="188" width="122" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2f-95-zA5">
+                                <rect key="frame" x="41" y="348" width="283" height="116"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="9dp-n0-9Ol"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="Penny!">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -51,27 +64,29 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="hBV-Yh-V92" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="118" id="9we-xS-LcH"/>
-                            <constraint firstItem="hBV-Yh-V92" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="D5i-63-90E"/>
-                            <constraint firstItem="eRA-vU-AuW" firstAttribute="top" secondItem="C2f-95-zA5" secondAttribute="bottom" constant="231" id="Fc6-mK-qD5"/>
-                            <constraint firstAttribute="trailing" secondItem="eRA-vU-AuW" secondAttribute="trailing" constant="-6" id="IV0-g9-bPC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C2f-95-zA5" secondAttribute="trailing" constant="126" id="QHj-Vi-zeQ"/>
-                            <constraint firstItem="vEv-nm-NAL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="RWW-GX-6Fl"/>
-                            <constraint firstItem="eRA-vU-AuW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-17" id="Tzv-Bg-nGn"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eRA-vU-AuW" secondAttribute="bottom" constant="11" id="UXR-Np-dvp"/>
-                            <constraint firstItem="eRA-vU-AuW" firstAttribute="top" secondItem="C2f-95-zA5" secondAttribute="bottom" constant="231" id="Ud1-5i-SVp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vEv-nm-NAL" secondAttribute="trailing" constant="126" id="XBM-D6-q8k"/>
-                            <constraint firstItem="C2f-95-zA5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="ir6-Ye-rSK"/>
-                            <constraint firstItem="vEv-nm-NAL" firstAttribute="top" secondItem="hBV-Yh-V92" secondAttribute="bottom" constant="8" id="som-C2-8K0"/>
-                            <constraint firstItem="C2f-95-zA5" firstAttribute="top" secondItem="vEv-nm-NAL" secondAttribute="bottom" constant="8" id="uMa-Lp-kPA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hBV-Yh-V92" secondAttribute="trailing" constant="132" id="w6B-cO-MXz"/>
+                            <constraint firstItem="C2f-95-zA5" firstAttribute="top" secondItem="vEv-nm-NAL" secondAttribute="bottom" constant="31" id="1HL-SZ-Lf6"/>
+                            <constraint firstItem="eRA-vU-AuW" firstAttribute="top" secondItem="C2f-95-zA5" secondAttribute="bottom" constant="38" id="36y-wB-oWh"/>
+                            <constraint firstItem="vEv-nm-NAL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="3pr-ng-xAs"/>
+                            <constraint firstItem="C2f-95-zA5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="AXa-bZ-W4C"/>
+                            <constraint firstItem="vEv-nm-NAL" firstAttribute="top" secondItem="hBV-Yh-V92" secondAttribute="bottom" constant="14" id="DVm-4S-btn"/>
+                            <constraint firstItem="C2f-95-zA5" firstAttribute="top" secondItem="vEv-nm-NAL" secondAttribute="bottom" constant="31" id="PNb-vw-HZ5"/>
+                            <constraint firstItem="eRA-vU-AuW" firstAttribute="top" secondItem="C2f-95-zA5" secondAttribute="bottom" constant="38" id="Sf1-IK-n7K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C2f-95-zA5" secondAttribute="trailing" constant="51" id="YIv-ad-2sT"/>
+                            <constraint firstItem="hBV-Yh-V92" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="YdZ-5h-ZaT"/>
+                            <constraint firstAttribute="trailing" secondItem="eRA-vU-AuW" secondAttribute="trailing" constant="-6" id="Zyz-5a-vFi"/>
+                            <constraint firstItem="hBV-Yh-V92" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="chB-Bp-sCC"/>
+                            <constraint firstItem="eRA-vU-AuW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-17" id="hhC-mX-zM4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hBV-Yh-V92" secondAttribute="trailing" constant="32" id="j2v-TP-uyJ"/>
+                            <constraint firstItem="vEv-nm-NAL" firstAttribute="top" secondItem="hBV-Yh-V92" secondAttribute="bottom" constant="14" id="p7G-mU-NQa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vEv-nm-NAL" secondAttribute="trailing" constant="19" id="sWS-VT-Xm1"/>
+                            <constraint firstAttribute="bottom" secondItem="eRA-vU-AuW" secondAttribute="bottom" id="twa-XU-pUy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+            <point key="canvasLocation" x="136.80000000000001" y="138.17733990147784"/>
         </scene>
     </scenes>
     <resources>
